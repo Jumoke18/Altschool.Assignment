@@ -1,0 +1,87 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ebefee;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Navigation Styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #313030;
+    margin-bottom: 20px;
+}
+
+li {
+    margin: 0;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(26, 1, 1);
+    padding: 10px 20px;
+    display: block;
+}
+
+li a:hover {
+    background-color: #007bff;
+}
+
+/* Heading Styles */
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Image Styles */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Figcaption Styles */
+figcaption {
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+    margin-top: 5px;
+}
+
+/* Audio Styles */
+.audio-container {
+    margin-bottom: 20px;
+}
+
+audio {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Video Styles */
+.video-container {
+    margin-bottom: 20px;
+}
+
+video {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    ul {
+        flex-direction: column;
+    }
+
+    li {
+        text-align: center;
+    }
+}

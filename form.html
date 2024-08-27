@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AltSchool Application Form</title>
+  <link rel="stylesheet" href="form.css">
+</head>
+<body>
+  <div class="form-container">
+    <h2>AltSchool Application Form</h2>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">About Me</a></li>
+          <li><a href="form.html">Application Form</a></li>
+          <li><a href="table.html">Schools and Courses Available</a></li>
+          <li><a href="media.html">Message About Myself</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <form action="submit" method="post">
+          <h1>Already an AltSchooler? Sign In!</h1>
+          <h1><strong>Signup</strong></h1>
+          <strong>Take the next steps to apply at AltSchool Africa</strong>
+
+          <div class="form-group">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="first-name" required><br><br>
+          </div>
+
+          <div class="form-group">
+            <label for="last-name"><strong>Last Name:</strong></label>
+            <input type="text" id="last-name" name="last-name" required><br><br>
+          </div>
+
+          <div class="form-group">
+            <label for="dob"><strong>Date of Birth:</strong></label>
+            <input type="date" id="dob" name="dob" required><br><br>
+          </div>
+
+          <div class="form-group">
+            <label for="gender"><strong>Gender:</strong></label>
+            <select id="gender" name="gender" required>
+              <option value="" disabled selected>Select your gender</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+            </select><br><br>
+          </div>
+
+          <div class="form-group">
+            <label for="email"><strong>Email Address:</strong></label>
+            <input type="email" id="email" name="email" required><br><br>
+          </div>
+
+          <div class="form-group">
+            <label for="phone-number"><strong>Phone Number:</strong></label>
+            <input type="tel" id="phone-number" name="phone-number" required><br><br>
+          </div>
+
+          <div class="form-group">
+            <label for="country"><strong>Country:</strong></label>
+            <select id="country" name="country" required>
+              <option value="" disabled selected>Select your country</option>
+              <option value="usa">United States</option>
+              <option value="canada">Canada</option>
+              <option value="uk">United Kingdom</option>
+              <option value="australia">Australia</option>
+              <option value="india">India</option>
+              <option value="nigeria">Nigeria</option>
+            </select><br><br>
+          </div>
+
+          <div class="form-group">
+            <label for="city"><strong>State/City of Residence:</strong></label>
+            <select id="city" name="State/City of Residence" required>
+              <option value="" disabled selected>Select your State/City of Residence</option>
+              <option value="abia">Abia</option>
+              <option value="lagos">Lagos</option>
+              <option value="oyo">Oyo</option>
+              <option value="ogun">Ogun</option>
+              <option value="osun">Osun</option>
+              <option value="katsina">Katsina</option>
+            </select><br><br>
+          </div>
+
+          <div class="form-group">
+            <label for="referral"><strong>How did you hear about us?:</strong></label>
+            <select id="referral" name="referral" required>
+              <option value="" disabled selected>Select Channel</option>
+              <option value="twitter">Twitter</option>
+              <option value="linkedin">LinkedIn</option>
+              <option value="instagram">Instagram</option>
+              <option value="youtube">YouTube</option>
+              <option value="friend">Friend</option>
+              <option value="other">Other</option>
+            </select><br><br>
+          </div>
+
+          <div class="form-group">
+            <label for="password"><strong>Password:</strong></label>
+            <input type="password" id="password" name="password" required><br><br>
+          </div>
+
+          <div class="form-group">
+            <label for="confirm-password"><strong>Confirm Password:</strong></label>
+            <input type="password" id="confirm-password" name="confirm-password" required><br><br>
+          </div>
+
+          <p>By clicking continue, I agree to the <a href="#">TERMS OF USE</a> and acknowledge that I have read the <a href="#">PRIVACY POLICY</a>.</p>
+
+          <p>Telephone
+            0800ALTSCHOOL</p>
+
+          <div class="form-group">
+            <button type="submit" class="submit-button">Submit</button>
+          </div>
+        </form>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

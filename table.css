@@ -1,0 +1,51 @@
+/* Basic reset */
+body, h1, table {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #007BFF;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+td ul {
+  padding-left: 20px;
+}
+
+td ul li {
+  list-style-type: disc;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
